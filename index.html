@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title> My website - Anh Nguyen</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <div class="wrapper">
+      <div class="card-wrapper">
+        <div class="card">
+          <div class="portrait-half"></div>
+          <div class="portrait"></div>
+
+          <div class="name">Anh Nguyen</div>
+          <div class="intro">
+            I'm a CoderSchool student and I am currently learning how to be a
+            fullstacks developer
+          </div>
+          <br>
+          <div class="quote">
+            "The greatest glory in living lies not in never falling, but in
+            rising every time we fall."
+          </div>
+          <div class="author">-Nelson Mandela</div>
+
+          <p>My hobby : Swimming , music , travel</p>
+          <p>Favorite food : BBQ , coffee , chocolate</p>
+          <p>Languages : English , Vietnamese</p>
+          <hr />
+
+          <div class="social-media">
+            <a href="https://github.com/">
+              <img
+                src= "https://icon-library.com/images/github-icon-svg/github-icon-svg-27.jpg"
+                width="40px"
+              />
+            </a>
+            <a href="https://facebook.com/">
+              <img
+                src="https://img.freepik.com/free-icon/facebook-logo-with-rounded-corners_318-9850.jpg"
+                width="40px"
+              />
+            </a>
+            <a href="https://instagram.com">
+              <img
+                src="https://e7.pngegg.com/pngimages/730/864/png-clipart-instagram-logo-computer-icons-insta-logo-text-computer-icons-thumbnail.png"
+                width="40px"
+              />
+            </a>
+          </div>
+        </div>  
+      </div>
+      <div class="button-wrapper"> 
+        <div>
+          <div class="current">Current progress</div>
+          <p class="text50"> 40% </p>  
+        </div>
+        <div class="loading">
+          <div class="part1"> <p> HTML </p> </div>
+          <div class="part2"> <p> CSS </p> </div>
+          <div class="part3"> <p> JavaScript </p> 
+        </div>
+        </div>  
+  
+      </div>
+
+    <button class="open-chatbox" onclick="moform()"> Chat </button>
+    <div class="chatbox" id="myForm">
+      <form action="" class="form-container">
+        <label for="msg"><b></label>
+          <textarea placeholder="Nhập lời nhắn..." name="msg" required></textarea>
+          <button type="submit" class="btn">Gửi</button>
+          <button type="button" class="btn close-chatbox" onclick="dongform()">Đóng</button>
+      </form>
+  </div>
+  </body>
+</html>
+
